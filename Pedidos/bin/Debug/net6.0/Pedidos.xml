@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pedidos</name>
+    </assembly>
+    <members>
+        <member name="M:Pedidos.Controllers.PedidoController.Get(System.Int32)">
+            <summary>
+            Retorna um pedido
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.PedidoController.Create(Pedidos.Models.Pedido.PedidoViewModelInput)">
+            <summary>
+            Criar um novo pedido
+            </summary>
+            <param name="modelo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.PedidoController.Edit(Pedidos.Bussines.Entities.Pedido)">
+            <summary>
+            editar um pedido
+            </summary>
+            <param name="modelo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.ProdutoController.GetList">
+            <summary>
+            retorna uma lista de produtos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.ProdutoController.Create(Pedidos.Models.Usuario.ProdutoViewModelInput)">
+            <summary>
+            Criar um novo produto
+            </summary>
+            <param name="modelo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.ProdutoController.Edit(Pedidos.Bussines.Entities.Produto)">
+            <summary>
+            edita um produto
+            </summary>
+            <param name="modelo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pedidos.Controllers.ProdutoController.Delete(System.Int32)">
+            <summary>
+            exclui um produto
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Pedidos.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Pedidos.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Pedidos.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Pedidos.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
